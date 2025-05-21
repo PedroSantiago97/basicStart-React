@@ -14,15 +14,15 @@ Se estiver usando JavaScript, crie um arquivo jsconfig.json na raiz do seu proje
 
 
 
-{
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "checkJs": true,
-    "jsx": "react"
-  },
-  "include": ["src"]
-}
+{  
+  "compilerOptions": {  
+    "target": "es6",  
+    "module": "commonjs",  
+    "checkJs": true,  
+    "jsx": "react"  
+  },  
+  "include": ["src"]  
+}  
 
 Se for TypeScript, o tsconfig.json já deve cuidar disso.
 
